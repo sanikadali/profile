@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid red; 
+            justify-content: right;
+            height: auto; 
+            align-items: center; 
+        }
+        .toy{
+            margin:10px;
+            padding: 20px;
+            background-color: blue;
+            color: #fff;
+        }
+        .toy1{
+            margin:10px;
+            padding: 20px;
+            background-color: rgb(16, 80, 10);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="toy">Toy1</div>
+        <div class="toy1">Toy2</div>
+        <div class="toy">Toy3</div>
+        <div class="toy1">Toy4</div>
+    </div>
+</body>
+</html>

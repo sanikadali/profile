@@ -1,0 +1,143 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: #f2f7ff;
+    color: #333;
+    line-height: 1.1;
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    width:50%;
+    margin:20px auto;
+    border-top:1px solid #ccc;
+}
+h1,h2{
+    font-weight: 700;
+}
+p,a{
+    font-weight: 400;
+}
+a{
+    color:#007bff;
+    text-decoration:none;
+    display:inline-block;
+    margin:2px 0;
+}
+a:hover{
+    color: #0056b3;
+}
+.fas,.fab{
+    margin-right:1px;
+    color: inherit;
+}
+.icon-link{
+    display: inline-block;
+    margin:0 10px;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    color:#ffffff;
+    font-size:24px;
+    line-height:60px;
+    text-align: center;
+}
+.email-icon{
+    background-color: #a10c0c;
+}
+.instagram-icon{
+    background-color: rgb(211, 29, 156);
+}
+.icon-link:hover{
+    transform: scale(1.2,1.2);
+    color: #fff;
+}
+header,footer{
+    background:linear-gradient(to top,#34cad4,#206dc5);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+section{
+    padding: 15px;
+    text-align: center;
+    width:80%;
+    max-width: 800px;
+}
+.profile_img{
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+form{
+    width:100%;
+    max-width: 500px;
+    background: #fff;
+    margin:20px auto;
+    padding:20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: left;
+    box-sizing:ooroxr-box;
+}
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form-group label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea, form button{
+    width:100%;
+    padding: 5px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 0
+}
+form button{
+    display: block;
+    width:100%;
+    padding:10px 20px;
+    margin-top:10px;
+    background-image: linear-gradient(to right, #34cad4,#206dc5);
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+form button:hover{
+    background-image: linear-gradient(to right,#206dc5,#34cad4);
+}
+table img{
+    height: 200px;
+    margin:10px;
+    max-width: 200px;
+}
+table img:hover{
+    height: 250px;
+    max-width: 250px;
+}
+table{
+    text-align: center;
+    margin:5px auto;
+}
+h2{
+    font-size: 19px;
+    color: #206dc5;
+}
+h1{
+    font-size: 19px;
+}
